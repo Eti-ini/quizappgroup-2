@@ -1,0 +1,125 @@
+body{
+
+	background-color: #E5E5E5;
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.question{
+	text-align: left;
+	font-size: 2.2rem;
+}
+.quiz-wrapper{
+	width: 500px;
+    max-width: 80%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 12px 4px;
+    padding: 20px;
+}
+.options {
+	display: grid;
+    grid-template-columns: repeat(2,auto);
+    margin: 10px 0;
+
+}
+
+.options > div{
+
+	padding: 8% 5%;
+	margin: 4%;
+	cursor: pointer;
+
+	color: #fff;
+	font-size: 1.5rem;
+	border-radius: 10px;
+	border: 2px solid hsl(200, 100%, 30%);
+	background-color: hsl(200, 100%, 50%);
+
+}
+.next-container{
+	text-align: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.next-btn, .previous-btn{
+	
+	padding: 4% 5%;
+	width: 30%;
+	margin: 3% 0;
+	
+	color: #fff;
+	font-size: 1.5rem;
+	border-radius: 10px;
+    border: 2px solid hsl(200, 100%, 30%);
+	background-color: hsl(200, 100%, 50%);
+
+}
+.total-score{
+	display: none;
+	text-align: center;
+}
+.score-card{
+	text-align: center;
+}
+.total-score{
+	margin: 40px 0;
+	font-size: 64px;
+	font-weight: 700;
+  }
+.btn-container{
+	display: flex;
+	justify-content: center;
+}
+.btn{
+	margin: 3% 0;
+	outline: 0;
+	border: 2px solid hsl(150, 100%, 30%);
+	background: hsl(150, 100%, 50%);
+	color: #fff;
+	border-radius: 89px;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 20px;
+
+
+}
+#correct{
+	margin: 5%;
+	padding: 5%;
+	border: 1px solid hsl(150, 100%, 30%);
+	cursor: pointer;
+	text-align: left;
+	color: #fff;
+	font-size: 1.5rem;
+	border-radius: 10px;
+	background-color: hsl(130, 100%, 40%);
+}
+#wrong{
+	margin: 5%;
+	padding: 5%;
+	border: 1px solid hsl(3, 100%, 20%);
+	cursor: pointer;
+	text-align: left;
+	color: #fff;
+	font-size: 1.5rem;
+	border-radius: 10px;
+	background-color: hsl(3, 100%, 40%);
+}
+.score-card{
+	font-size: 40px;
+	font-weight: 600;
+	margin: 5px 0;
+}
+@media (max-width: 500px){
+	.options {
+		display: flex;
+		flex-direction: column;
+	}
+}

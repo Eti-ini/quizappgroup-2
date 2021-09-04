@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="iResolve website">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Quiz App</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script defer type="text/javascript" src="quiz.js"></script>
+</head>
+<body>
+	<div class="total-score">Your total Score is:</div>
+	<div class="quiz-wrapper">
+		<div class="question">
+			Sample question
+		</div>
+		<div class="options">
+			<div class="opt1" onclick="button(this)">Option1</div>
+			<div class="opt2" onclick="button(this)">Option2</div>
+			<div class="opt3" onclick="button(this)">Option3</div>
+			<div class="opt4" onclick="button(this)">Option4</div>
+		</div>
+		<div class="next-container"><div class="next-btn" onclick="next()">Next</div></div>
+		<div class="score-card">0</div>
+		<div class="btn-container"><button class="btn" onclick="restart()">Restart</button></div>
+	</div>
+</body>
+</html>
