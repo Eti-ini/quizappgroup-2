@@ -128,6 +128,8 @@ body{
        options > div{
            font-size: 1.2rem;
 }
-
+       .score{
+     display: none;
+   }
        
 }
