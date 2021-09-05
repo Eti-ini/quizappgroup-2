@@ -12,7 +12,9 @@ body{
 }
 .question{
 	text-align: left;
-	font-size: 2.2rem;
+        padding: 20px;
+        margin-top: 20px;
+	font-size: 2.1rem;
 }
 .quiz-wrapper{
 	width: 500px;
