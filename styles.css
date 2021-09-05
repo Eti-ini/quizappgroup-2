@@ -62,7 +62,7 @@ body{
 
 }
 .total-score{
-	
+	display: none;
 	text-align: center;
 }
 .score-card{
@@ -128,7 +128,5 @@ body{
        options > div{
            font-size: 1.2rem;
 }
-       .total-score{
-          display: none;
-     }
+       
 }
