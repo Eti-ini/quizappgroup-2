@@ -20,7 +20,8 @@ body{
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 0 12px 4px;
-    padding: 30px;
+    padding: 20px;
+    margin-top: 10%;
 }
 .options {
     display: grid;
@@ -33,7 +34,6 @@ body{
 
 	padding: 8% 5%;
 	margin: 4%;
-	cursor: pointer;
 
 	color: #fff;
 	font-size: 1.5rem;
@@ -57,7 +57,7 @@ body{
 	color: #fff;
 	font-size: 1.5rem;
 	border-radius: 10px;
-    border: 2px solid hsl(200, 100%, 30%);
+        border: 2px solid hsl(200, 100%, 30%);
 	background-color: hsl(200, 100%, 50%);
 
 }
@@ -70,7 +70,7 @@ body{
 }
 .total-score{
 	margin: 40px 0;
-	font-size: 64px;
+	font-size: 44px;
 	font-weight: 700;
   }
 .btn-container{
@@ -80,6 +80,7 @@ body{
 .btn{
 	margin: 3% 0;
 	outline: 0;
+        cursor: pointer;
 	border: 2px solid hsl(150, 100%, 30%);
 	background: hsl(150, 100%, 50%);
 	color: #fff;
@@ -113,11 +114,10 @@ body{
 	background-color: hsl(3, 100%, 40%);
 }
 .score-card{
-	font-size: 40px;
+	font-size: 56px;
 	font-weight: 600;
 	margin: 5px 0;
-        display: flex;
-        justify-content: center;
+        
 }
 @media (max-width: 500px){
 	.options {
