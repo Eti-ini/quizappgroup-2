@@ -116,6 +116,8 @@ body{
 	font-size: 40px;
 	font-weight: 600;
 	margin: 5px 0;
+        display: flex;
+        justify-content: center;
 }
 @media (max-width: 500px){
 	.options {
@@ -128,8 +130,5 @@ body{
        options > div{
            font-size: 1.2rem;
 }
-       .score{
-     display: none;
-   }
        
 }
